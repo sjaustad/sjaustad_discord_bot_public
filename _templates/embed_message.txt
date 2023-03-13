@@ -1,0 +1,10 @@
+title=Discord Final Challenge Reminder
+description=
+url=
+image=https://i.ibb.co/tMsYq0C/discord-challenge-copy.jpg
+field_name=Time
+field_value=8:30PM (7:30 PST) tonight
+inline=false
+field_name=Meeting Instructions
+field_value=Discord voice channel
+footer=Contact Austax if you have an emergency

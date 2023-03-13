@@ -1,0 +1,13 @@
+[Unit]
+Description=Discord py bot
+After=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+User=ubuntu
+WorkingDirectory=/path/to/repo
+ExecStart=/usr/bin/python3.8 /path/to/repo/controller.py
+
+[Install]
+WantedBy=multi-user.target

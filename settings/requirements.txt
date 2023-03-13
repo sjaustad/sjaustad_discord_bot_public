@@ -1,0 +1,40 @@
+#PIP Packages:
+#discord.py # gotta have it for this bot
+## Discord version 2:
+#py -m pip install -U git+https://github.com/Rapptz/discord.py#egg=discord.py[voice]
+discord-py ## Version 2 is now standard
+psutil # gets system information and interacts with running apps
+python-dateutil # more powerful engine for rewriting dates 
+pyenchant # for predicting mispelled commands
+requests # API calls
+tabulate # for printing long lists/charts in Discord
+colorama # for making logs look nicer in terminal
+yt_dlp # for downloading youtube mp3 and playing it
+gTTS # Google TTS engine
+discord-py-slash-command==3.0.3 # for integrating slash autocomplete commands, newest version needs higher aiohttp which we can't use so we do old version
+aiohttp==3.7.4 # This version of discord py needs 3.7.4
+google-api-python-client # google api stuff
+oauth2client #oath stuff for google
+PyNaCl # voice things for discord chat
+orjson # database json serializer
+aioredis # redis database connector
+pillow # image processing
+
+
+## Apps
+# Python >= 3.8.3
+
+## OS specific options:
+# Windows:
+# FFMPEG installed in PATH
+# Pychant stuff may get installed automagically if not, see their docs
+
+# Linux (ubuntu):
+# sudo apt install python3-enchant
+# sudo apt install ffmpeg
+
+## Deprecated - should not be needed
+##venmo_api - deprecated, do not need
+##pyttsx3 - not needed unless reverting to windows TTS
+#pyttsx3 #tts library
+#selenium # for product scraper

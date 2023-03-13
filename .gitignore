@@ -1,0 +1,24 @@
+logs/
+*.cpython-38.pyc
+*.pyc
+database/server_database.sqlite
+sandbox.py
+*.mp3
+.vscode/
+_testing/
+__pycache__/
+_junk/
+test.csv
+settings/base_dir.txt
+cogs/files/help_list.txt
+plugins/audio_player/cookies.txt
+audio_files/*.webm
+audio_files/*.mp3
+settings/server_settings.py
+plugins/ai_image_generator/output_images/
+plugins/ai_image_generator/_tmp/
+plugins/ai_image_generator/storage/
+plugins/pattern/image_guess/src
+plugins/pattern/image_guess/log.txt
+settings/dbsettings copy.py
+temp.py
