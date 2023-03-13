@@ -19,3 +19,6 @@ Start with: python3 controller.py
 * sudo apt install python3-enchant
 * sudo apt install ffmpeg
 * Redis configured on localhost or remotely
+
+
+Created by Spencer Austad
